@@ -22,11 +22,9 @@ namespace MadLib.Controllers
       userWordVariable.Verb1 = verb1;
       userWordVariable.Verb2 = verb2;
       userWordVariable.Verb3 = verb3;
-      userWordVariable.Verb4 = verb4;
-      return View(); 
-      }
+      userWordVariable.Verb4 = verb4; 
+      return View(userWordVariable); 
+    }
   }
-
-
-
+  
 }
