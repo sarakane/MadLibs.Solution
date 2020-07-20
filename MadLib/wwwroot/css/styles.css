@@ -10,3 +10,7 @@ color: black;
   color:#CCC;
   padding:8px;
 }
+
+form button {
+  margin-top: 10px;
+}

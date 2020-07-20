@@ -6,6 +6,9 @@ namespace MadLib.Controllers
   public class HomeController : Controller
   {
     [Route("/")]
+    public ActionResult Index() { return View(); }
+
+    [Route("/2")]
     public ActionResult Form() { return View(); }
 
     [Route("/1")]
@@ -49,6 +52,7 @@ namespace MadLib.Controllers
       userNewWordVariables.HomePlanet = homeplanet;       
       return View(userNewWordVariables); 
     }
+
+
   }
-  
 }
