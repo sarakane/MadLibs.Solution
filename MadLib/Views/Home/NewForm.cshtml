@@ -1,19 +1,50 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='=utf-8'>
-    <title>MadLibs Form</title>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-  </head>
-  <body>
+@{
+  Layout = "_Layout";
+}
     <div class="container">
-      <form action="/story" method="post">
-        <label for="person">Person</label>
-        <input id="person" name="person" type="text" class="form-control">
+      <form action="/newstory" method="post">
+        <label for="name">name</label>
+        <input id="name" name="name" type="text" class="form-control">
+        
+        <label for="spaceplace1">somewhere in space</label>
+        <input id="spaceplace1" name="spaceplace1" type="text" class="form-control">
+        
+        <label for="number">number</label>
+        <input id="number" name="number" type="text" class="form-control">
+        
+        <label for="emotion1">emotion</label>
+        <input id="emotion1" name="emotion1" type="text" class="form-control">
 
+        <label for="emotion2">emotion</label>
+        <input id="emotion2" name="emotion2" type="text" class="form-control">
+        
+        <label for="miss1">something you will miss</label>
+        <input id="miss1" name="miss1" type="text" class="form-control">
+        
+        <label for="miss2">something you will miss</label>
+        <input id="miss2" name="miss2" type="text" class="form-control">
+        
+        <label for="spaceattraction">something cool in space</label>
+        <input id="spaceattraction" name="spaceattraction" type="text" class="form-control">
+
+        <label for="color">color</label>
+        <input id="color" name="color" type="text" class="form-control">
+        
+        <label for="spaceplace2">somewhere in space</label>
+        <input id="spaceplace2" name="spaceplace2" type="text" class="form-control">
+
+        <label for="bignumber">a big number</label>
+        <input id="bignumber" name="bignumber" type="text" class="form-control">
+        
+        <label for="AnimalPlural">animal (plural)</label>
+        <input id="AnimalPlural" name="AnimalPlural" type="text" class="form-control">
+        
+        <label for="thing">a small thing</label>
+        <input id="thing" name="thing" type="text" class="form-control">
+        
+        <label for="homeplanet">home planet</label>
+        <input id="homeplanet" name="homeplanet" type="text" class="form-control">
 
         <button type="submit" class="btn btn-info">Tell me a story.</button>
       </form>
     </div>
-  </body>
-</html>

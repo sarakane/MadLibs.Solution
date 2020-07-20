@@ -1,0 +1,12 @@
+h1 {
+color: black;
+}
+
+.container {
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  color:#CCC;
+  padding:8px;
+}
