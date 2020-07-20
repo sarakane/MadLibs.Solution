@@ -4,17 +4,17 @@
 
 <br>
 
-*EDIT* # __
+# _MadLibs Exercise_
 
-*EDIT* #### __	
+#### _c# epicodus_	
 
-#### By _**Tristan Emmerson**_
+#### By _**Tristan Emmerson** & **Sara Kane**_
 
 <br>
 
 ## **DESCRIPTION**
 
-*EDIT* __
+_simple madlib exercise written in c#_
 
 <br>
 
@@ -30,15 +30,14 @@
 
 *  _Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
 
-*EDIT* *  _Github [repository](https://github.com/tmemmerson/)_
+*EDIT* *  _Github [repository](https://github.com/tmemmerson/MadLibs.Solution.git)_
 
-*EDIT* *  _Live [demo](https://tmemmerson.github.io/)_
 
 *  **Windows/Mac Users:** If modifying for personal use, dl Git [here](https://git-scm.com/downloads/) (v2.62.2)
 
 * Download [Visual Studio Code](https://code.visualstudio.com/) (v1.45)
 
-* Download ZIP [here](https://github.com/tmemmerson/currency-exchanger4.git) OR if you are comfortable cloning a repo, copy the link as shown below.
+* Download ZIP [here](https://github.com/tmemmerson/MadLibs.Solution.git) OR if you are comfortable cloning a repo, copy the link as shown below.
 
 ![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone.gif "How to clone repo")
 
@@ -56,13 +55,9 @@
 
 * Step 2: commit that .gitignore file (this prevents your sensitive information like your API key being shown to others). **DO NOT PROCEED TO STEP 3 UNTIL YOU DO THIS!**
 
-* Step 3: create a .env file in the top level of your project directory. populate the file as shown in step 3 of the image below _(replacing YourKeyGoesHere with the API key you received from step 0)_
-
 ![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/readme-image.jpg "Set up instructions")
 
-* Step 4: in your terminal type "npm install" and submit. this will install the files necessary to utilize this app.
 
-* Step 5: in your terminal type "npm run build". this will build the app and place those files in a directory labeled "/dist". From here, you can right-click the index.html file and open in your browser or simply drag-and-drop into a browser window. 
 
 * Step 6: enjoy
 
@@ -70,7 +65,7 @@
 
 ## **Known Bugs**
 
-*EDIT* _**No Known Bugs:**7/3/2020_
+*EDIT* _**No Known Bugs:**7/20/2020_
 
 <br>
 
