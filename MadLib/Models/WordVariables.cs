@@ -1,8 +1,7 @@
 namespace MadLib.Models
 {
-  public class ClassName
+  public class WordVariables
   {
     // properties, constructors, methods, etc. go here
-    
   }
 }
