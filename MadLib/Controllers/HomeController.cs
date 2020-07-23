@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using MadLib.Models;
+using System;
 
 namespace MadLib.Controllers
 {
@@ -8,10 +9,23 @@ namespace MadLib.Controllers
     [Route("/")]
     public ActionResult Index() { return View(); }
 
-    [Route("/2")]
+    [Route("/form-select")]
+    public ActionResult SelectForm(string madLibSelection) // VARIABLE NAME MUST MATCH SELECT NAME!!!
+    {
+      if(madLibSelection == "park")
+      {
+        return RedirectToAction("Form");
+      }
+      else
+      {
+        return RedirectToAction("NewForm");
+      }
+    }
+
+    [Route("/park")]
     public ActionResult Form() { return View(); }
 
-    [Route("/1")]
+    [Route("/astronaut")]
     public ActionResult NewForm() { return View(); }
 
     [Route("/story")]
